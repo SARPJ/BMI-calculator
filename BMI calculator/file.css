@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  height: 60vh;
+  width: 500px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+}
+
+div input {
+  height: 34px;
+  width: 80%;
+  padding: 10px;
+  font-size: 25px;
+}
+
+button {
+  height: 54px;
+  width: 30%;
+  font-size: 25px;
+}
